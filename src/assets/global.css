@@ -1,0 +1,88 @@
+@font-face {
+    font-family: OpenSansR;
+    src: url(./font/open-sans/OpenSans-Regular.ttf);}
+@font-face {
+    font-family: OpenSansRI;
+    src: url(./font/open-sans/OpenSans-RegularItalic.ttf);}
+@font-face {
+    font-family: OpenSansL;
+    src: url(./font/open-sans/OpenSans-Light.ttf);}
+@font-face {
+    font-family: OpenSansM;
+    src: url(./font/open-sans/OpenSans-Medium.ttf);}
+@font-face {
+    font-family: OpenSansB;
+    src: url(./font/open-sans/OpenSans-Bold.ttf);}
+@font-face {
+    font-family: OpenSansSB;
+    src: url(./font/open-sans/OpenSans-SemiBold.ttf);}
+@font-face {
+    font-family: Playfair;
+    src: url(./font/playfair/PlayfairDisplay-Regular.ttf);}
+
+:root {
+    --White: #fff;
+    --Gray: #2c3b42;
+    --Lightgray: rgba(44, 59, 66, 0.2);
+    --Green: #077132; 
+
+    --Regular: OpenSansR;
+    --Regular-italic: OpenSansRI;
+    --Light: OpenSansL;
+    --Medium: OpenSansM;
+    --Bold: OpenSansB;
+    --Semi: OpenSansSB;
+    --Playfair: Playfair;
+
+    --Body: 1rem;
+    --Kopje: 2rem;
+    --Titel: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OpenSansR;
+    font-size: 1rem;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    font-family: var(--Bold);
+    font-size: var(--Titel);
+    color: var(--gray);
+    /* text-align: center;
+    padding-top: 100px; */
+}
+
+h2 {
+    font-family: var(--Playfair);
+    font-size: 3rem;
+    color: var(--white);
+    /* letter-spacing: 4px; */
+}
+
+h3 {
+    font-family: var(--Playfair);
+    font-size: 3rem;
+    color: var(--gray);
+    /* letter-spacing: 4px; */
+}
+
+h4 {
+    font-family: var(--Light);
+    font-size: 1.3rem;
+    color: var(--white);
+    /* letter-spacing: 4px; */
+}
+
+ul,
+ul
+ul li a {
+    text-decoration: none;
+    list-style-type: none;
+}
