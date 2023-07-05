@@ -19,6 +19,9 @@
 @font-face {
     font-family: Playfair;
     src: url(./font/playfair/PlayfairDisplay-Regular.ttf);}
+@font-face {
+    font-family: PlayfairB;
+    src: url(./font/playfair/PlayfairDisplay-Bold.ttf);}
 
 :root {
     --White: #fff;
@@ -33,6 +36,7 @@
     --Bold: OpenSansB;
     --Semi: OpenSansSB;
     --Playfair: Playfair;
+    --PlayfairB: PlayfairB;
 
     --Body: 1rem;
     --Kopje: 2rem;

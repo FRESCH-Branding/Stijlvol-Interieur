@@ -1,77 +1,59 @@
 <template>
-<nav class="navbar navbar-expand-lg">
-  <div class="container-fluid nav-container">
-      <router-link to="/"> 
-        <img src="../assets/logo/Logo-kleur.png" alt="Stijlvol Interieur Logo" class="navbar-brand nav-logo">  
-      </router-link>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <font-awesome-icon icon="fa-regular fa-compass " size="xl"/>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <router-link to="/" class="nav-link"> Home </router-link>
-        </li>
-        <li class="nav-item">
-          <router-link :to="{ name: 'Over'}" class="nav-link"> Over </router-link>
-        </li>
-        <li class="nav-item">
-          <router-link :to="{ name: 'Projecten'}" class="nav-link"> Projecten </router-link>
-        </li>        
-        <li class="nav-item">
-          <router-link :to="{ name: 'Contact'}" class="nav-link"> Contact </router-link>
-        </li>
-      </ul>
+    <div class="container-fluid header-container ">
+        <div class="row header-row align-items-end justify-content-center">
+            <div v-show="$route.path==='/over'" class="col-12 slogan">
+              Uit hout gesneden
+              <br/>
+              vakmanschap!
+            </div>
+            <div class="col-8 pagina-titel">
+                {{ title }}
+            </div>
+        </div>
     </div>
-  </div>
-</nav>
 </template>
 
 <script>
 export default {
-    name: "Header"
+    name: "Header",
+    props: ['title'],
+    methods: {
 
+    }
 }
 </script>
 
 <style lang="scss">
-.navbar {
-  margin: 0;
-  padding: 0;
-  height: 100px;
+.header-container {
+    margin: 0;
+    padding: 0;
 }
 
-.navbar-toggler {
-  border: none;
+.header-row {
+    margin: 0 40px 40px 40px;
+    min-height: 250px;
+    background-image: url("../assets/Header.jpg");
+    background-position: center;
 }
 
-.nav-container {
-  margin: 20px 40px;
-  padding: 0;
+.pagina-titel {
+    background-color: var(--White);
+    color: var(--Gray);
+    font-size: var(--Titel);
+    font-family: var(--PlayfairB);
+    line-height: 100px;
 }
 
-.nav-logo {
-  height: 60px;
-  margin: 0;
-  padding: 0;
+.slogan {
+    display: block;
+    transform: skew(0deg, -5deg);
+    padding: 15vh;
+    color: var(--White);
+    
+    font-family: var(--Semi);
+    font-size: var(--Kopje);
+    margin: 100px 0;
+    padding: 0;
 }
 
-.nav-item {
-  margin: 0;
-  padding: 0;
-}
-.nav-link {
-  font-family: var(--Medium);
-  font-size: 1.3rem;
-  padding: 0;
-  margin: 0 0 0 30px;
-  color: var(--Gray);
-
-  &:hover {
-    color: var(--Green);
-  } 
-
-}
 </style>
