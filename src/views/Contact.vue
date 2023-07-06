@@ -1,11 +1,16 @@
 <template>
-    <Header title='Contact'/>
+    <Header :title="pagename"/>
 </template>
 
 <script>
 import Header from '../components/Header';
 
 export default {
+    data () {
+        return {
+            pagename: 'Contact'
+        }
+    },
     components: {
         Header,
     }
@@ -13,6 +18,6 @@ export default {
 
 </script>
 
-<style>
+<style lang="scss">
 
 </style>

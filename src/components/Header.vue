@@ -50,9 +50,10 @@ export default {
     padding: 15vh;
     color: var(--White);
     
-    font-family: var(--Semi);
+    font-family: var(--Bold);
     font-size: var(--Kopje);
     margin: 100px 0;
+    line-height: 40px;
     padding: 0;
 }
 

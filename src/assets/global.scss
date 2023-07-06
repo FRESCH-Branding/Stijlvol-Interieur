@@ -59,33 +59,27 @@ h1 {
     font-family: var(--Bold);
     font-size: var(--Titel);
     color: var(--gray);
-    /* text-align: center;
-    padding-top: 100px; */
 }
 
 h2 {
     font-family: var(--Playfair);
     font-size: 3rem;
     color: var(--white);
-    /* letter-spacing: 4px; */
 }
 
 h3 {
     font-family: var(--Playfair);
     font-size: 3rem;
     color: var(--gray);
-    /* letter-spacing: 4px; */
 }
 
 h4 {
     font-family: var(--Light);
     font-size: 1.3rem;
     color: var(--white);
-    /* letter-spacing: 4px; */
 }
 
 ul,
-ul
 ul li a {
     text-decoration: none;
     list-style-type: none;

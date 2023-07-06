@@ -1,5 +1,5 @@
 <template>
-    <Header title='Stijlvol Interieur'/>
+    <Header :title="pagename"/>
     <div class="container text-center">
         <div class="row justify-content-center">
             <div class="col-8">
@@ -21,6 +21,11 @@
 import Header from '../components/Header';
 
 export default {
+    data () {
+        return {
+            pagename: 'Stijlvol Interieur'
+        }
+    },
     components: {
         Header,
     }
@@ -29,6 +34,6 @@ export default {
 
 </script>
 
-<style>
+<style lang="scss">
 
 </style>

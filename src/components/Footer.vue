@@ -79,7 +79,7 @@
           <a href="https://freschbranding.nl/" target="_blank"
               >FRESCH BRANDING 
           </a>
-            | All rights reserved ©
+            | alle rechten voorbehouden ©
         </div>
         <div class="col copywrite-col text-end">          
           <router-link :to="{ name: ''}" class="footer-link"> Privacy </router-link>
