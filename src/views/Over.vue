@@ -83,7 +83,7 @@ export default {
     },
     components: {
         Header,
-        RouterBtn
+        RouterBtn,
     }
 }
 

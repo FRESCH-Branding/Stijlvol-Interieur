@@ -1,22 +1,10 @@
 <template>
-    <div class="container projecten-container">
+    <div class="container carousel-container">
         <div class="row justify-content-center">
             <div class="col">
                 <flickity  class="flickity" ref="flickity" :options="flickityOptions">
-                    <div class="carousel-cell">
-                        <img src="../assets/portfolio/1-Stijlvol-Interieur.png" class="img-fluid" alt="">
-                    </div>
-                    <div class="carousel-cell">
-                        <img src="../assets/portfolio/1-Stijlvol-Interieur.png" class="img-fluid" alt="">
-                    </div>
-                    <div class="carousel-cell">
-                        <img src="../assets/portfolio/1-Stijlvol-Interieur.png" class="img-fluid" alt="">
-                    </div>
-                    <div class="carousel-cell">
-                        <img src="../assets/portfolio/1-Stijlvol-Interieur.png" class="img-fluid" alt="">
-                    </div>
-                    <div class="carousel-cell">
-                        <img src="../assets/portfolio/1-Stijlvol-Interieur.png" class="img-fluid" alt="">
+                    <div class="carousel-cell" v-for="(image, index) in images" :key="index">
+                        <img :src="require(`@/assets/portfolio/${image.filename}`)" class="img-fluid" alt="Image">
                     </div>
                 </flickity>
                 <button class="carousel-button prev" @click="prev">
@@ -41,14 +29,22 @@ export default {
     },
     data () {
         return {
-        flickityOptions: {
-            initialIndex: 0,
-            prevNextButtons: false,
-            pageDots: false,
-            wrapAround: true,
-            freeScroll: false,
-            autoPlay: 5000,
-        }
+            flickityOptions: {
+                initialIndex: 0,
+                prevNextButtons: false,
+                pageDots: false,
+                wrapAround: true,
+                freeScroll: false,
+                autoPlay: 5000,
+            },
+            images: [
+                {filename: '-1.jpg'},
+                {filename: '-3.jpg'},
+                {filename: '-4.jpg'},
+                {filename: '-6.jpg'},
+                {filename: '-7.jpg'},
+                {filename: '-9.jpg'},
+            ],
         }
     },
     methods: {
@@ -63,6 +59,10 @@ export default {
 </script>
 
 <style lang="scss">
+.carousel-container {
+    margin: 10rem auto;
+}
+
 .carousel-cell {
   width: 100%;
   height: 35vw;

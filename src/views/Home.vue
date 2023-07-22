@@ -56,12 +56,16 @@
     <div class="row row-test justify-content-center">
       <div class="col-4 img-col meubels">
         <img src="../assets/portfolio/38-Stijlvol-Interieur.jpg" class="img-fluid expertise-img" alt="">
-        <h3>Meubels</h3>
+        <router-link :to="{ name: 'Projecten'}" class="expertise-link"> 
+          <h3>Meubels</h3>
+        </router-link>
       </div>
 
       <div class="col-4 img-col interieur">
         <img src="../assets/portfolio/2-Stijlvol-Interieur.png" class="img-fluid expertise-img" alt="">
-        <h3>Interieur</h3>
+        <router-link :to="{ name: 'Projecten'}" class="expertise-link"> 
+          <h3>Interieur</h3>
+        </router-link>
       </div>
     </div>
   </div>
@@ -83,35 +87,7 @@
     </div>
   </div>
 
-<div class="container projecten-container">
-  <div class="row justify-content-center">
-    <div class="col">
-       <flickity  class="flickity" ref="flickity" :options="flickityOptions">
-        <div class="carousel-cell">
-          <img src="../assets/portfolio/1-Stijlvol-Interieur.png" class="img-fluid" alt="">
-        </div>
-        <div class="carousel-cell">
-          <img src="../assets/portfolio/1-Stijlvol-Interieur.png" class="img-fluid" alt="">
-        </div>
-        <div class="carousel-cell">
-          <img src="../assets/portfolio/1-Stijlvol-Interieur.png" class="img-fluid" alt="">
-        </div>
-        <div class="carousel-cell">
-          <img src="../assets/portfolio/1-Stijlvol-Interieur.png" class="img-fluid" alt="">
-        </div>
-        <div class="carousel-cell">
-          <img src="../assets/portfolio/1-Stijlvol-Interieur.png" class="img-fluid" alt="">
-        </div>
-      </flickity>
-      <button class="carousel-button prev" @click="prev">
-        <font-awesome-icon icon="fa-solid fa-angle-left" />
-      </button>
-      <button class="carousel-button next" @click="next">
-        <font-awesome-icon icon="fa-solid fa-angle-right" />
-      </button>
-    </div>
-  </div>
-</div>
+  <Carousel/>
 
   <div class="container CtA-container">
     <div class="row justify-content-center">
@@ -121,7 +97,7 @@
           Wil je jouw droominterieur werkelijkheid laten worden? Neem vandaag nog contact op met Stijlvol Interieur en laat ons jouw wensen tot leven brengen.
         </p>
         <RouterBtn>
-          <router-link :to="{ name: 'Contact'}">
+          <router-link :to="{ name: 'Contact'}" class="expertise-link">
              Contact 
              <font-awesome-icon class="FA-icon" icon="fa-solid fa-angle-right" />
             </router-link>
@@ -134,32 +110,16 @@
 
 <script>
 import RouterBtn from '../components/RouterBtn';
-import Flickity from 'vue-flickity'
+import Carousel from '../components/Carousel';
 
 export default {
   components: {
-    Flickity,
+    Carousel,
     RouterBtn
   },
   data () {
     return {
-      flickityOptions: {
-        initialIndex: 0,
-        prevNextButtons: false,
-        pageDots: false,
-        wrapAround: true,
-        freeScroll: false,
-        autoPlay: 5000,
-      }
     }
-  },
-  methods: {
-    next() {
-      this.$refs.flickity.next()
-    },
-    prev() {
-      this.$refs.flickity.previous()
-    },
   },
 }
 </script>
@@ -182,8 +142,7 @@ export default {
 }
 
 .quote-container,
-.CtA-container,
-.projecten-container {
+.CtA-container {
   margin: 10rem auto;
 
   .cta-button {
@@ -213,9 +172,10 @@ export default {
   padding: 0;
 
   h3 {
+    border-left: 3px solid var(--Green);
+    padding-left: 10px;
+    margin: 10px 0;
     font-size: 1.25rem;
-    margin: 5px 0;
-    text-align: start;
     width: fit-content;
   }
 }
@@ -232,37 +192,17 @@ export default {
   width: 650px;
 }
 
+.expertise-link {
+  text-decoration: none;
+  color: var(--Gray);
+
+  &:hover {
+    color: var(--Green);
+  }
+
+}
+
 .over-container {
   margin: 10rem auto;
 }
-
-.carousel-cell {
-  width: 100%;
-  height: 35vw;
-  margin-right: 1rem;
-}
-
-.carousel-button {
-  border: none;
-  margin: 10px 0;
-  padding: 0 10px;
-  line-height: 2rem;
-  position: relative;
-  background: transparent;
-
-}
-.next {
-  border-right: 3px solid var(--Green);
-  float: right;
-}
-.prev {
-  border-left: 3px solid var(--Green);
-  float: left;
-} 
-
-
-.flickity-page-dots .dot {
-    background: #077132;
-}
-
 </style>
