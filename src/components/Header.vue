@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid header-container ">
+    <div class="container-fluid header-container text-center">
         <div class="row header-row align-items-end justify-content-center">
             <div v-show="$route.path==='/over'" class="col-12 slogan">
               Uit hout gesneden

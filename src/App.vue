@@ -24,7 +24,7 @@ export default {
   font-family: var(--Regular);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  // text-align: center;
   color: var(--Gray);
 }
 </style>

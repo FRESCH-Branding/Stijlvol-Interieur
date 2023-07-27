@@ -7,7 +7,7 @@
 
     </div>
 
-    <div class="container CtA-container">
+    <div class="container CtA-container text-center">
         <div class="row justify-content-center">
             <div class="col-8">
                 <h2>Benieuwd naar de mogelijkheden?</h2>

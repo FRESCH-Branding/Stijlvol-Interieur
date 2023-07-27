@@ -6,7 +6,7 @@
     </div>
   </div>
 
-  <div class="container quote-container">
+  <div class="container quote-container text-center">
     <div class="row justify-content-center align-items-center">
       <div class="col">
         <div class="card">
@@ -33,7 +33,7 @@
     </div>
 
     <div class="row justify-content-center">
-      <div class="col-2">
+      <div class="col-5 col-md-2">
         <RouterBtn>
           <router-link :to="{ name: 'Projecten'}">
              Projecten 
@@ -41,7 +41,7 @@
             </router-link>
         </RouterBtn>
       </div>
-      <div class="col-2">
+      <div class="col-5 col-md-2">
         <RouterBtn>
           <router-link :to="{ name: 'Contact'}">
              Contact 
@@ -54,14 +54,14 @@
 
   <div class="container-fluid expertise-container">
     <div class="row row-test justify-content-center">
-      <div class="col-4 img-col meubels">
+      <div class="col-10 col-md-4 img-col meubels">
         <img src="../assets/portfolio/38-Stijlvol-Interieur.jpg" class="img-fluid expertise-img" alt="">
         <router-link :to="{ name: 'Projecten'}" class="expertise-link"> 
           <h3>Meubels</h3>
         </router-link>
       </div>
 
-      <div class="col-4 img-col interieur">
+      <div class="col-10 col-md-4 img-col interieur">
         <img src="../assets/portfolio/2-Stijlvol-Interieur.png" class="img-fluid expertise-img" alt="">
         <router-link :to="{ name: 'Projecten'}" class="expertise-link"> 
           <h3>Interieur</h3>
@@ -72,7 +72,7 @@
 
   <div class="container over-container text-start">
     <div class="row">
-      <div class="col-5">
+      <div class="col-10 col-md-5">
         <h2>Stijlvol Interieur</h2>
         <p>
           Stijlvol interieur is een meubel en interieur bouw onderneming die zich gespecialiseerd heeft in het ontwerpen en produceren van interieur. Hierbij gebruikt Stijlvol Interieur alle soorten hout, al dan niet in combinatie met staal, en enkel duurzame producten. Met het oog op detail en kwaliteit, een flinke dosis vakkennis en het vakmanschap geeft Stijlvol Interieur vorm aan alle dromen en wensen van de klant.
@@ -89,9 +89,9 @@
 
   <Carousel/>
 
-  <div class="container CtA-container">
+  <div class="container CtA-container text-center">
     <div class="row justify-content-center">
-      <div class="col-8">
+      <div class="col-10 col-md-8">
         <h2>Benieuwd naar de mogelijkheden?</h2>
         <p>
           Wil je jouw droominterieur werkelijkheid laten worden? Neem vandaag nog contact op met Stijlvol Interieur en laat ons jouw wensen tot leven brengen.

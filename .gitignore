@@ -21,3 +21,6 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+#form-to-email file
+/src/assets/form-to-email.php
