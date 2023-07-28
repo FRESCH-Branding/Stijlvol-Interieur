@@ -58,7 +58,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .carousel-container {
     margin: 10rem auto;
 }
@@ -90,5 +90,15 @@ export default {
 
 .flickity-page-dots .dot {
     background: #077132;
+}
+
+
+
+// responsive tot 768 pixels
+@media (max-width: 768px) {
+
+    .carousel-cell {
+        height: 60vw;
+    }
 }
 </style>

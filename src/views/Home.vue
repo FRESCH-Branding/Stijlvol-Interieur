@@ -53,7 +53,7 @@
   </div>
 
   <div class="container-fluid expertise-container">
-    <div class="row row-test justify-content-center">
+    <div class="row expertise-row justify-content-center">
       <div class="col-10 col-md-4 img-col meubels">
         <img src="../assets/portfolio/38-Stijlvol-Interieur.jpg" class="img-fluid expertise-img" alt="">
         <router-link :to="{ name: 'Projecten'}" class="expertise-link"> 
@@ -71,8 +71,8 @@
   </div>
 
   <div class="container over-container text-start">
-    <div class="row">
-      <div class="col-10 col-md-5">
+    <div class="row over-row">
+      <div class="col-10 col-md-5 over-col">
         <h2>Stijlvol Interieur</h2>
         <p>
           Stijlvol interieur is een meubel en interieur bouw onderneming die zich gespecialiseerd heeft in het ontwerpen en produceren van interieur. Hierbij gebruikt Stijlvol Interieur alle soorten hout, al dan niet in combinatie met staal, en enkel duurzame producten. Met het oog op detail en kwaliteit, een flinke dosis vakkennis en het vakmanschap geeft Stijlvol Interieur vorm aan alle dromen en wensen van de klant.
@@ -91,7 +91,7 @@
 
   <div class="container CtA-container text-center">
     <div class="row justify-content-center">
-      <div class="col-10 col-md-8">
+      <div class="col-10 col-md-8 Cta-header">
         <h2>Benieuwd naar de mogelijkheden?</h2>
         <p>
           Wil je jouw droominterieur werkelijkheid laten worden? Neem vandaag nog contact op met Stijlvol Interieur en laat ons jouw wensen tot leven brengen.
@@ -168,6 +168,10 @@ export default {
   }
 }
 
+.expertise-row {
+  margin: 0;
+}
+
 .img-col {
   padding: 0;
 
@@ -199,10 +203,48 @@ export default {
   &:hover {
     color: var(--Green);
   }
-
 }
 
 .over-container {
   margin: 10rem auto;
 }
+
+.over-row {
+  justify-content: start;
+}
+
+.over-col {
+  padding: 0 12px;
+
+}
+
+// responsive tot 768 pixels
+@media (max-width: 768px) {
+
+  .meubels {
+    padding: 10px 0;
+  }
+  .interieur {
+    padding: 10px 0;
+  }
+
+  .expertise-img {
+    height: auto;
+    width: 650px;
+  }
+  
+    h2 {
+      font-size: 2.3rem;
+    }
+  
+  .over-row {
+    justify-content: center;
+  } 
+
+  .over-col {
+    padding: 0;
+  }
+}
+  
+
 </style>

@@ -2,12 +2,12 @@
   <footer>
     <div class="container-fluid">
       <div class="row align-items-center">
-        <div class="col logo-col text-start">
-          <img src="../assets/logo/Logo-payoff-wit.png" alt="Stijlvol Interieur Logo" class="footer-logo">  
+        <div class="col-12 col-md-6 logo-col text-start">
+          <img src="../assets/logo/Logo-payoff-wit.png" alt="Stijlvol Interieur Logo" class="img-fluid footer-logo">  
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6">
           <div class="row">
-            <div class="col">
+            <div class="col-12 col-md-4 menu-col">
               <div class="footer-headers">Navigatie</div>
               <ul class="footer-menu">
                 <li class="footer-item">
@@ -24,7 +24,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-4 menu-col">
               <div class="footer-headers">Contact</div>
               <ul class="footer-menu">
                 <li class="footer-item">
@@ -48,7 +48,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-4 menu-col">
               <div class="footer-headers">Volgen</div>
               <ul class="footer-menu">
                 <li class="footer-item">
@@ -75,13 +75,13 @@
         </div>
       </div>
       <div class="row copywrite-row text-start">
-        <div class="col copywrite-col">          
+        <div class="col-12 col-md  copywrite-col">          
           <a href="https://freschbranding.nl/" target="_blank"
               >FRESCH BRANDING 
           </a>
             | alle rechten voorbehouden ©
         </div>
-        <div class="col copywrite-col text-end">          
+        <div class="col-12 col-md copywrite-col text-end">          
           <router-link :to="{ name: ''}" class="footer-link"> Privacy </router-link>
             | 
           <router-link :to="{ name: ''}" class="footer-link"> Algemeen </router-link>
@@ -110,6 +110,7 @@ footer {
 .footer-logo {
   margin: 40px;
   width: 15vw;
+  display: flex;
 }
 
 .footer-headers {
@@ -145,7 +146,7 @@ footer {
   color: var(--White);
   font-size: 0.75rem;
   text-transform: uppercase;
-  margin: 5px 15px;
+  padding: 5px 15px;
 }
 
 .copywrite-col a {
@@ -156,5 +157,33 @@ footer {
   &:hover {
     color: var(--Green);
   }
+}
+
+// responsive tot 768 pixels
+@media (max-width: 768px) {
+
+  .footer-logo {
+    width: 50vw;
+    margin: 40px auto;
+  }
+
+  .footer-headers {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .footer-menu,
+  .footer-item {
+    text-align: center;
+  }
+
+  .copywrite-row {
+    padding-top: 40px;
+  }
+
+  .copywrite-col {
+    text-align: center !important;
+  }
+
 }
 </style>
