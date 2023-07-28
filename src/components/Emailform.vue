@@ -3,7 +3,7 @@
 
     <div class="contain">
       <div class="row">
-        <div class="col">
+        <div class="col-12 col-md-6">
           <input 
             type="text" 
             name="naam" 
@@ -20,7 +20,7 @@
           />
         </div>
         
-        <div class="col align-self-end">
+        <div class="col-12 col-md-6 align-self-end">
           <input
             type="tel"
             placeholder="Telefoonnummer:"
@@ -106,5 +106,17 @@ button {
   border: none;
   border-left: 3px solid var(--Green);
   background-color: transparent;
+}
+
+.cta-button {
+  width: fit-content;
+}
+
+// responsive tot 768 pixels
+@media (max-width: 768px) {
+    
+    #telinput {
+      margin: 0;
+    }
 }
 </style>

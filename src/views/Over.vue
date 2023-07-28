@@ -6,7 +6,7 @@
 
     <div class="container intro-container text-center">
         <div class="row justify-content-center">
-            <div class="col-8">
+            <div class="col-12 col-md-8">
                 <p>
                     Stijlvol interieur is een meubel en interieur bouw onderneming die zich gespecialiseerd heeft in het ontwerpen en produceren van interieur. 
                     Hierbij gebruikt Stijlvol Interieur alle soorten hout, al dan niet in combinatie met staal, en enkel duurzame producten. Met het oog op detail en kwaliteit, 
@@ -22,9 +22,9 @@
 
     <div class="container-fluid missie-container text-start">
         <div class="row missie-row justify-content-center">
-            <div class="col-8">
+            <div class="col-12 col-md-8">
                 <div class="row justify-content-between">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <h2>Missie & Visie</h2>
                         <p>
                             Bij Stijlvol Interieur zijn we toegewijd aan het creëren van unieke, duurzame en stijlvolle interieurs die voldoen aan de specifieke wensen en behoeften van onze klanten. We maken gebruik van hoogwaardige materialen en ons vakmanschap om tijdloze stukken te creëren die een leven lang meegaan. Onze persoonlijke aanpak en aandacht voor detail zorgen voor een naadloze en plezierige ervaring voor onze klanten, van begin tot eind.
@@ -40,7 +40,7 @@
                             </router-link>
                         </RouterBtn>
                     </div>
-                    <div class="col-4 over-column align-self-end">
+                    <div class="col-12 col-md-4 over-column align-self-end">
                         <img src="../assets/daan-portret-2.jpg" class="img-fluid over-portret" alt="">
                         <!-- <img src="../assets/logo/icon.svg" class="img-fluid over-icoon" alt=""> -->
                     </div>
@@ -49,9 +49,12 @@
         </div>
     </div>
 
+</div>
+
+
     <div class="container CtA-container text-center">
         <div class="row justify-content-center">
-            <div class="col-8">
+            <div class="col-10 col-md-8 Cta-header">
                 <h2>Benieuwd naar de mogelijkheden?</h2>
                 <p>
                     Ontdek onze indrukwekkende collectie aan voorgaande meesterwerken en laat je inspireren door de prachtige interieurs die we hebben gecreëerd.
@@ -65,8 +68,6 @@
             </div>
         </div>
     </div>
-
-</div>
 
 </template>
 
@@ -126,5 +127,26 @@ export default {
     // position: relative;
 }
 
+// responsive tot 768 pixels
+@media (max-width: 768px) {
+    
+    h2 {
+        font-size: 2.3rem;
+    }
+    
+    .missie-container,
+    .intro-container {
+        text-align: center !important;
+        margin: 2rem auto;
+    }
+
+    .over-column {
+        margin-top: 5rem;
+
+    }
+    .cta-button {
+        margin: auto;
+    }
+}
 
 </style>

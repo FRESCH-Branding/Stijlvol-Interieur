@@ -9,7 +9,7 @@
 
     <div class="container CtA-container text-center">
         <div class="row justify-content-center">
-            <div class="col-8">
+            <div class="col-10 col-md-8">
                 <h2>Benieuwd naar de mogelijkheden?</h2>
                 <p>
                 Wil je jouw droominterieur werkelijkheid laten worden? Neem vandaag nog contact op met Stijlvol Interieur en laat ons jouw wensen tot leven brengen.
@@ -46,12 +46,19 @@ export default {
 
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .CtA-container {
   margin: 10rem auto;
 
   .cta-button {
     margin: auto;
   }
+}
+
+// responsive tot 768 pixels
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2.3rem;
+    }
 }
 </style>

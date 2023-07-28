@@ -233,9 +233,9 @@ export default {
     width: 650px;
   }
   
-    h2 {
-      font-size: 2.3rem;
-    }
+  h2 {
+    font-size: 2.3rem;
+  }
   
   .over-row {
     justify-content: center;

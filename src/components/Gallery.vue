@@ -151,4 +151,11 @@ export default {
     margin-top: 10px;
 
 }
+// responsive tot 768 pixels
+@media (max-width: 768px) {
+    
+    .grid-container {
+            margin: 2rem auto;
+        }
+}
 </style>

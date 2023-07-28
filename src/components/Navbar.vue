@@ -6,8 +6,8 @@
       </router-link>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <!-- <font-awesome-icon icon="fa-regular fa-compass" size="xl"/> -->
-      <span class="navbar-toggler-icon"></span>
+      <font-awesome-icon icon="fa-regular fa-compass" size="xl"/>
+      <!-- <span class="navbar-toggler-icon"></span> -->
     </button>
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">

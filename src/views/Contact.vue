@@ -27,14 +27,14 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-3">
+                <div class="col-10 col-md-3 contact-button">
                     <RouterBtn>
                         <a href="tel:+31630275956">
                             06 - 30 27 59 56
                         </a>
                     </RouterBtn>
                 </div>
-                <div class="col-3">
+                <div class="col-10 col-md-3 contact-button">
                     <RouterBtn>
                         <a href="mailto:info@stijlvolinterieur.nl" target="_blank">
                             info@stijlvolinterieur.nl
@@ -47,16 +47,8 @@
 
         <div class="container-fluid form-container">
             <div class="row form-row justify-content-center">
-                <div class="col-5 form-col form-text">
-                    
-                </div>
-                <div class="col-3 form-col">
-                </div>
-            </div>
-
-            <div class="row form-row justify-content-center">
-                <div class="col-8 form-col">
-                    <span>Stuur ons een berichtje</span>
+                <div class="col-12 col-md-8 form-col">
+                    <h2>Stuur ons een berichtje</h2>
                     <Emailform/>
                 </div>
             </div>
@@ -121,11 +113,28 @@ export default {
     margin: 0;
     padding: 0;
 
-    span {
+    h2 {
         font-family: var(--Playfair);
         font-size: 2rem;
         color: var(--Gray);
     }
 }
 
+// responsive tot 768 pixels
+@media (max-width: 768px) {
+
+    h2 {
+        font-size: 2.3rem;
+    }
+
+    .quote-container,
+    .form-container {
+        margin: 5rem auto;
+    }
+    
+    .contact-button {
+        margin: 0.5rem 0;
+    }
+
+}
 </style>

@@ -6,7 +6,7 @@
               <br/>
               vakmanschap!
             </div>
-            <div class="col-8 pagina-titel">
+            <div class="col-10 col-md-8 pagina-titel">
                 {{ title }}
             </div>
         </div>
@@ -23,7 +23,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .header-container {
     margin: 0;
     padding: 0;
@@ -55,6 +55,25 @@ export default {
     margin: 100px 0;
     line-height: 40px;
     padding: 0;
+}
+
+// responsive tot 768 pixels
+@media (max-width: 768px) {
+
+    .slogan {
+        display: none;
+    }
+
+    .pagina-titel {
+        font-size: 1.5rem;
+        line-height: 75px;
+    }
+
+    .header-row {
+        margin: 0 40px;
+        min-height: 150px;
+    }
+  
 }
 
 </style>
