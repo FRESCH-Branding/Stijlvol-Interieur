@@ -44,47 +44,47 @@ export default {
             images1: [
                 {
                 filename: '-1.jpg',
-                title: 'Image name',
+                title: 'Hangend TV meubel - Boxmeer',
                 },
 
                 {
                 filename: '-2.jpg',
-                title: 'Image name',
+                title: 'Vergadertafel met Matixpoten - Van Bon',
                 },
                 
                 {
                 filename: '-3.jpg',
-                title: 'Image name',
+                title: 'Hang/bartafels met stalen onderstel - TC Topspin',
                 },
             ],
             images2: [
                 {
                 filename: '-4.jpg',
-                title: 'Image name',
+                title: 'Boomstam wastafelblad - Van Bon',
                 },
 
                 {
                 filename: '-6.jpg',
-                title: 'Image name',
+                title: 'Salontafel met stalen onderstel - Boxmeers Tapijthuis',
                 },
                 {
                 filename: '-5.jpg',
-                title: 'Image name',
+                title: 'Garderobekast met boomstamblad - Boxmeer',
                 },
             ],
             images3: [
                 {
                 filename: '-8.jpg',
-                title: 'Image name',
+                title: 'Rustieke Boomstamtafel met stalen poten - Boxmeer',
                 },
 
                 {
                 filename: '-7.jpg',
-                title: 'Image name',
+                title: 'Vergadertafel met stalen onderstel -Boxmeers Tapijhuis',
                 },
                 {
                 filename: '-9.jpg',
-                title: 'Image name',
+                title: 'Sierkast met ledverlichting - Boxmeer',
                 },
             ],
         };
@@ -107,6 +107,7 @@ export default {
 
 
 .filter-buttons {
+    display: none;
     span {
         font-family: var(--Playfair);
         font-size: 3rem;
