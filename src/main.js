@@ -18,6 +18,7 @@ import { faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
 library.add(faCompass);
@@ -26,6 +27,7 @@ library.add(faQuoteRight);
 library.add(faAngleRight);
 library.add(faAngleLeft);
 library.add(faArrowUpRightFromSquare);
+library.add(faAnglesDown);
 
 createApp(App)
   .use(router)

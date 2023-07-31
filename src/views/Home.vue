@@ -1,12 +1,13 @@
 <template>
   <div class="container-fluid home-header-container">
     <div class="row home-background align-items-end">
-      <div class="col">
+      <div class="col go-down-button text-end" @click="scroll">
+          <font-awesome-icon icon="fa-solid fa-angles-down" class="go-down-icon"/>
       </div>
     </div>
   </div>
 
-  <div class="container quote-container text-center">
+  <div class="container quote-container text-center" id="quote">
     <div class="row justify-content-center align-items-center">
       <div class="col">
         <div class="card">
@@ -121,6 +122,12 @@ export default {
     return {
     }
   },
+  methods: {
+  scroll() {
+    const element = document.getElementById("quote");
+    element.scrollIntoView({ behavior: "smooth", block: "center" });
+  },
+},
 }
 </script>
 
@@ -140,6 +147,23 @@ export default {
   width: calc(100vw - 80px);
   height: calc(100vh - 140px);
 }
+
+.go-down-button {
+  color: var(--White);
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+
+  .go-down-icon{
+    height: 20px;
+    width: 20px;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+  }
+}
+
 
 .quote-container,
 .CtA-container {
@@ -192,7 +216,7 @@ export default {
 }
 
 .expertise-img {
-  height: 900px;
+  height: 88vh;
   width: 650px;
 }
 
@@ -220,6 +244,22 @@ export default {
 
 // responsive tot 768 pixels
 @media (max-width: 768px) {
+  .home-background {
+    height: calc(95vh - 140px);
+  }
+
+  .go-down-button {
+    text-align: center !important;
+
+  .go-down-icon{
+    height: 15px;
+    width: 15px;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+  }
+}
 
   .meubels {
     padding: 10px 0;

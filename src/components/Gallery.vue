@@ -49,7 +49,7 @@ export default {
 
                 {
                 filename: '-2.jpg',
-                title: 'Vergadertafel met Matixpoten - Van Bon',
+                title: 'Vergadertafel met Matixpoot - Van Bon elektra',
                 },
                 
                 {
@@ -60,7 +60,7 @@ export default {
             images2: [
                 {
                 filename: '-4.jpg',
-                title: 'Boomstam wastafelblad - Van Bon',
+                title: 'Boomstam wastafelblad - Van Bon elektra',
                 },
 
                 {
