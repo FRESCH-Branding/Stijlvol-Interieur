@@ -4,7 +4,9 @@
             <div class="col">
                 <flickity  class="flickity" ref="flickity" :options="flickityOptions">
                     <div class="carousel-cell" v-for="(image, index) in images" :key="index">
-                        <img :src="require(`@/assets/portfolio/${image.filename}`)" class="img-fluid" alt="Image">
+                        <div class="image-container">
+                            <img :src="require(`@/assets/portfolio/${image.filename}`)" class="img-fluid test" alt="Image">
+                        </div>
                     </div>
                 </flickity>
                 <button class="carousel-button prev" @click="prev">
@@ -38,12 +40,12 @@ export default {
                 autoPlay: 5000,
             },
             images: [
-                {filename: '-1.jpg'},
-                {filename: '-3.jpg'},
-                {filename: '-4.jpg'},
-                {filename: '-6.jpg'},
-                {filename: '-7.jpg'},
-                {filename: '-9.jpg'},
+                {filename: '1-tvkast.jpg'},
+                {filename: '3-topspin.jpg'},
+                {filename: '4-vanBon-wastafel.jpg'},
+                {filename: '6-tapijthuis-bijzettafel.jpg'},
+                {filename: '7-tapijthuis.jpg'},
+                {filename: '9-daan-wandkast.jpg'},
             ],
         }
     },
@@ -65,8 +67,10 @@ export default {
 
 .carousel-cell {
   width: 100%;
-  height: 35vw;
-  margin-right: 1rem;
+  height: 40vw;
+  margin-right: 1rem; 
+display: flex;
+align-items: end;
 }
 
 .carousel-button {

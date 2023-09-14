@@ -54,7 +54,7 @@
                 <li class="footer-item">
                 <a 
                 class="footer-link"
-                href=""
+                href="https://www.instagram.com/stijlvol_interieur_/"
                 target="_blank"
                 >
                   Instagram
@@ -63,7 +63,7 @@
                 <li class="footer-item">
                   <a 
                   class="footer-link"
-                  href=""
+                  href="https://www.facebook.com/profile.php?id=100081932402018"
                   target="_blank"
                   >
                     Facebook

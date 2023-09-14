@@ -56,14 +56,14 @@
   <div class="container-fluid expertise-container">
     <div class="row expertise-row justify-content-center">
       <div class="col-10 col-md-4 img-col meubels">
-        <img src="../assets/portfolio/38-Stijlvol-Interieur.jpg" class="img-fluid expertise-img" alt="">
+        <img src="../assets/afbeeldingen/38-Stijlvol-Interieur.jpg" class="img-fluid expertise-img" alt="">
         <router-link :to="{ name: 'Projecten'}" class="expertise-link"> 
           <h3>Meubels</h3>
         </router-link>
       </div>
 
       <div class="col-10 col-md-4 img-col interieur">
-        <img src="../assets/portfolio/2-Stijlvol-Interieur.png" class="img-fluid expertise-img" alt="">
+        <img src="../assets/afbeeldingen/2-Stijlvol-Interieur.png" class="img-fluid expertise-img" alt="">
         <router-link :to="{ name: 'Projecten'}" class="expertise-link"> 
           <h3>Interieur</h3>
         </router-link>
@@ -76,7 +76,7 @@
       <div class="col-10 col-md-5 over-col">
         <h2>Stijlvol Interieur</h2>
         <p>
-          Stijlvol interieur is een meubel en interieur bouw onderneming die zich gespecialiseerd heeft in het ontwerpen en produceren van interieur. Hierbij gebruikt Stijlvol Interieur alle soorten hout, al dan niet in combinatie met staal, en enkel duurzame producten. Met het oog op detail en kwaliteit, een flinke dosis vakkennis en het vakmanschap geeft Stijlvol Interieur vorm aan alle dromen en wensen van de klant.
+          Stijlvol Interieur is een meubel en interieur bouw onderneming die zich gespecialiseerd heeft in het ontwerpen en produceren van interieur. Hierbij gebruikt Stijlvol Interieur alle soorten hout, al dan niet in combinatie met staal, en enkel duurzame producten. Met het oog op detail en kwaliteit, een flinke dosis vakkennis en het vakmanschap geeft Stijlvol Interieur vorm aan alle dromen en wensen van de klant.
         </p>
         <RouterBtn>
           <router-link :to="{ name: 'Over'}"> 
@@ -140,7 +140,7 @@ export default {
 .home-background {
   margin: 0 40px 40px;
   padding: 0;
-  background-image: url(../assets/portfolio/8-Stijlvol-Interieur.jpg);
+  background-image: url(../assets/afbeeldingen/8-Stijlvol-Interieur.jpg);
   background-position: bottom;
   background-size: cover;
 
@@ -217,6 +217,7 @@ export default {
 
 .expertise-img {
   height: 88vh;
+  max-height: 775px;
   width: 650px;
 }
 

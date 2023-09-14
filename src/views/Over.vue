@@ -8,7 +8,7 @@
         <div class="row justify-content-center">
             <div class="col-12 col-md-8">
                 <p>
-                    Stijlvol interieur is een meubel en interieur bouw onderneming die zich gespecialiseerd heeft in het ontwerpen en produceren van interieur. 
+                    Stijlvol Interieur is een meubel en interieur bouw onderneming die zich gespecialiseerd heeft in het ontwerpen en produceren van interieur. 
                     Hierbij gebruikt Stijlvol Interieur alle soorten hout, al dan niet in combinatie met staal, en enkel duurzame producten. Met het oog op detail en kwaliteit, 
                     een flinke dosis vakkennis en het vakmanschap geeft Stijlvol Interieur vorm aan alle dromen en wensen van de klant.
                 </p>
@@ -41,7 +41,7 @@
                         </RouterBtn>
                     </div>
                     <div class="col-12 col-md-4 over-column align-self-end">
-                        <img src="../assets/daan-portret-2.jpg" class="img-fluid over-portret" alt="">
+                        <img src="../assets/afbeeldingen/daan-portret.jpg" class="img-fluid over-portret" alt="">
                         <!-- <img src="../assets/logo/icon.svg" class="img-fluid over-icoon" alt=""> -->
                     </div>
                 </div>

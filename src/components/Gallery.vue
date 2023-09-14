@@ -43,47 +43,47 @@ export default {
         return {
             images1: [
                 {
-                filename: '-1.jpg',
+                filename: '1-tvkast.jpg',
                 title: 'Hangend TV meubel - Boxmeer',
                 },
 
                 {
-                filename: '-2.jpg',
+                filename: '2-vanBon-tafel.jpg',
                 title: 'Vergadertafel met Matixpoot - Van Bon elektra',
                 },
                 
                 {
-                filename: '-3.jpg',
+                filename: '3-topspin.jpg',
                 title: 'Hang/bartafels met stalen onderstel - TC Topspin',
                 },
             ],
             images2: [
                 {
-                filename: '-4.jpg',
+                filename: '4-vanBon-wastafel.jpg',
                 title: 'Boomstam wastafelblad - Van Bon elektra',
                 },
 
                 {
-                filename: '-6.jpg',
+                filename: '6-tapijthuis-bijzettafel.jpg',
                 title: 'Salontafel met stalen onderstel - Boxmeers Tapijthuis',
                 },
                 {
-                filename: '-5.jpg',
+                filename: '5-kapstokmeubel.jpg',
                 title: 'Garderobekast met boomstamblad - Boxmeer',
                 },
             ],
             images3: [
                 {
-                filename: '-8.jpg',
+                filename: '8-daan-keukentafel.jpg',
                 title: 'Rustieke Boomstamtafel met stalen poten - Boxmeer',
                 },
 
                 {
-                filename: '-7.jpg',
+                filename: '7-tapijthuis.jpg',
                 title: 'Vergadertafel met stalen onderstel -Boxmeers Tapijhuis',
                 },
                 {
-                filename: '-9.jpg',
+                filename: '9-daan-wandkast.jpg',
                 title: 'Sierkast met ledverlichting - Boxmeer',
                 },
             ],
@@ -143,7 +143,7 @@ export default {
 
 .card-img-top {
     border-radius: 0px;
-    max-height: 895px;
+    max-height: 775px;
 }
 
 .card-title {

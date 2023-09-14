@@ -1,19 +1,9 @@
-# stijlvol-interieur-vue
+Stijlvol Interieur is een meubel en interieur bouw onderneming die zich gespecialiseerd heeft in het ontwerpen en produceren van interieur.
 
-## Project setup
-```
-npm install
-```
+To do:
+- email page
+- homepage --> expertise afbeeldingen optimaliseren
+- homepage --> carousel image position
+- 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Facebook banner ontwerpen

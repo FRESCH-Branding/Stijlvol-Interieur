@@ -1,5 +1,5 @@
 <template>
-  <form action="./assets/form-to-email.php" method="POST">
+  <form action="../assets/form-to-email.php" method="POST">
 
     <div class="contain">
       <div class="row">

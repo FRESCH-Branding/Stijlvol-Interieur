@@ -32,7 +32,7 @@ export default {
 .header-row {
     margin: 0 40px 40px 40px;
     min-height: 250px;
-    background-image: url("../assets/Header.jpg");
+    background-image: url("../assets/afbeeldingen/Header.jpg");
     background-position: center;
 }
 
