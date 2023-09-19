@@ -49,7 +49,7 @@
             <div class="row form-row justify-content-center">
                 <div class="col-12 col-md-8 form-col">
                     <h2>Stuur ons een berichtje</h2>
-                    <Emailform/>
+                    <Mail/>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
 
 <script>
 import Header from '../components/Header';
-import Emailform from '../components/Emailform';
+import Mail from '../components/Mail';
 import RouterBtn from '../components/RouterBtn';
 
 
@@ -71,8 +71,8 @@ export default {
     },
     components: {
         Header,
-        Emailform,
         RouterBtn,
+        Mail
     }
 }
 

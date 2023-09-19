@@ -41,7 +41,7 @@
                         </RouterBtn>
                     </div>
                     <div class="col-12 col-md-4 over-column align-self-end">
-                        <img src="../assets/afbeeldingen/daan-portret.jpg" class="img-fluid over-portret" alt="">
+                        <img src="../assets/afbeeldingen/Daan-Stijlvol-Interieur.jpg" class="img-fluid over-portret" alt="">
                         <!-- <img src="../assets/logo/icon.svg" class="img-fluid over-icoon" alt=""> -->
                     </div>
                 </div>

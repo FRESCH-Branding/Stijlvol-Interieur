@@ -8,7 +8,7 @@
         <div class="row ">
             <div class="col-lg-4 col-md-12 grid-column">
                 <div class="card" v-for="(image, index) in images1" :key="index">
-                        <img :src="require(`@/assets/portfolio/${image.filename}`)" class="card-img-top" alt="Image">
+                        <img :src="require(`@/assets/projecten/${image.filename}`)" class="card-img-top" alt="Image">
                         <div class="card-body">
                             <h3 class="card-title">{{ image.title }}</h3>
                         </div>
@@ -16,7 +16,7 @@
             </div>
             <div class="col-lg-4 col-md-12 grid-column">
                 <div class="card" v-for="(image, index) in images2" :key="index">
-                        <img :src="require(`@/assets/portfolio/${image.filename}`)" class="card-img-top" alt="Image">
+                        <img :src="require(`@/assets/projecten/${image.filename}`)" class="card-img-top" alt="Image">
                         <div class="card-body">
                             <h3 class="card-title">{{ image.title }}</h3>
                         </div>
@@ -24,7 +24,7 @@
             </div>
             <div class="col-lg-4 col-md-12 grid-column">
                 <div class="card" v-for="(image, index) in images3" :key="index">
-                        <img :src="require(`@/assets/portfolio/${image.filename}`)" class="card-img-top" alt="Image">
+                        <img :src="require(`@/assets/projecten/${image.filename}`)" class="card-img-top" alt="Image">
                         <div class="card-body">
                             <h3 class="card-title">{{ image.title }}</h3>
                         </div>
@@ -43,47 +43,47 @@ export default {
         return {
             images1: [
                 {
-                filename: '1-tvkast.jpg',
+                filename: '3.1-Stijlvol-Interieur.jpg',
                 title: 'Hangend TV meubel - Boxmeer',
                 },
 
                 {
-                filename: '2-vanBon-tafel.jpg',
+                filename: '5.4-Stijlvol-Interieur.jpg',
                 title: 'Vergadertafel met Matixpoot - Van Bon elektra',
                 },
                 
                 {
-                filename: '3-topspin.jpg',
+                filename: '4.1-Stijlvol-Interieur.jpg',
                 title: 'Hang/bartafels met stalen onderstel - TC Topspin',
                 },
             ],
             images2: [
                 {
-                filename: '4-vanBon-wastafel.jpg',
+                filename: '6.1-Stijlvol-Interieur.jpg',
                 title: 'Boomstam wastafelblad - Van Bon elektra',
                 },
 
                 {
-                filename: '6-tapijthuis-bijzettafel.jpg',
+                filename: '8.1-Stijlvol-Interieur.jpg',
                 title: 'Salontafel met stalen onderstel - Boxmeers Tapijthuis',
                 },
                 {
-                filename: '5-kapstokmeubel.jpg',
+                filename: '10.1-Stijlvol-Interieur.jpg',
                 title: 'Garderobekast met boomstamblad - Boxmeer',
                 },
             ],
             images3: [
                 {
-                filename: '8-daan-keukentafel.jpg',
+                filename: '1.1-Stijlvol-Interieur.jpg',
                 title: 'Rustieke Boomstamtafel met stalen poten - Boxmeer',
                 },
 
                 {
-                filename: '7-tapijthuis.jpg',
+                filename: '7.1-Stijlvol-Interieur.jpg',
                 title: 'Vergadertafel met stalen onderstel -Boxmeers Tapijhuis',
                 },
                 {
-                filename: '9-daan-wandkast.jpg',
+                filename: '2.2-Stijlvol-Interieur.jpg',
                 title: 'Sierkast met ledverlichting - Boxmeer',
                 },
             ],

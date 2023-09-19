@@ -1,7 +1,7 @@
 <template>
   <form action="../assets/form-to-email.php" method="POST">
 
-    <div class="contain">
+    <div class="container">
       <div class="row">
         <div class="col-12 col-md-6">
           <input 

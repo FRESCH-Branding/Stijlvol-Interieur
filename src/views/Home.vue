@@ -56,14 +56,14 @@
   <div class="container-fluid expertise-container">
     <div class="row expertise-row justify-content-center">
       <div class="col-10 col-md-4 img-col meubels">
-        <img src="../assets/afbeeldingen/38-Stijlvol-Interieur.jpg" class="img-fluid expertise-img" alt="">
+        <img src="../assets/projecten/1.2-Stijlvol-Interieur.jpg" class="img-fluid expertise-img" alt="">
         <router-link :to="{ name: 'Projecten'}" class="expertise-link"> 
           <h3>Meubels</h3>
         </router-link>
       </div>
 
       <div class="col-10 col-md-4 img-col interieur">
-        <img src="../assets/afbeeldingen/2-Stijlvol-Interieur.png" class="img-fluid expertise-img" alt="">
+        <img src="../assets/projecten/2.2-Stijlvol-Interieur.jpg" class="img-fluid expertise-img" alt="">
         <router-link :to="{ name: 'Projecten'}" class="expertise-link"> 
           <h3>Interieur</h3>
         </router-link>
@@ -140,7 +140,7 @@ export default {
 .home-background {
   margin: 0 40px 40px;
   padding: 0;
-  background-image: url(../assets/afbeeldingen/8-Stijlvol-Interieur.jpg);
+  background-image: url(../assets/afbeeldingen/Stijlvol-Interieur.jpg);
   background-position: bottom;
   background-size: cover;
 
@@ -219,6 +219,7 @@ export default {
   height: 88vh;
   max-height: 775px;
   width: 650px;
+  object-fit: cover;
 }
 
 .expertise-link {
@@ -264,9 +265,11 @@ export default {
 
   .meubels {
     padding: 10px 0;
+    object-fit: cover;
   }
   .interieur {
     padding: 10px 0;
+    object-fit: cover;
   }
 
   .expertise-img {

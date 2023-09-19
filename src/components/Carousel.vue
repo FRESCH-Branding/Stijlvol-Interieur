@@ -5,7 +5,7 @@
                 <flickity  class="flickity" ref="flickity" :options="flickityOptions">
                     <div class="carousel-cell" v-for="(image, index) in images" :key="index">
                         <div class="image-container">
-                            <img :src="require(`@/assets/portfolio/${image.filename}`)" class="img-fluid test" alt="Image">
+                            <img :src="require(`@/assets/projecten/${image.filename}`)" class="img-fluid test" alt="Image">
                         </div>
                     </div>
                 </flickity>
@@ -40,12 +40,12 @@ export default {
                 autoPlay: 5000,
             },
             images: [
-                {filename: '1-tvkast.jpg'},
-                {filename: '3-topspin.jpg'},
-                {filename: '4-vanBon-wastafel.jpg'},
-                {filename: '6-tapijthuis-bijzettafel.jpg'},
-                {filename: '7-tapijthuis.jpg'},
-                {filename: '9-daan-wandkast.jpg'},
+                {filename: '3.1-Stijlvol-Interieur.jpg'},
+                {filename: '4.1-Stijlvol-Interieur.jpg'},
+                {filename: '6.1-Stijlvol-Interieur.jpg'},
+                {filename: '8.1-Stijlvol-Interieur.jpg'},
+                {filename: '7.1-Stijlvol-Interieur.jpg'},
+                {filename: '2.1-Stijlvol-Interieur.jpg'},
             ],
         }
     },
