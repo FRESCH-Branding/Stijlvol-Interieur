@@ -23,6 +23,4 @@ pnpm-debug.log*
 *.sw?
 
 #form-to-email file
-/src/assets/form-to-email.php
 /src/components/Mail.vue
-
