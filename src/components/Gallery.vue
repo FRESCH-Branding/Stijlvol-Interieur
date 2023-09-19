@@ -48,7 +48,7 @@ export default {
                 },
 
                 {
-                filename: '5.4-Stijlvol-Interieur.jpg',
+                filename: '5.2-Stijlvol-Interieur.jpg',
                 title: 'Vergadertafel met Matixpoot - Van Bon elektra',
                 },
                 
