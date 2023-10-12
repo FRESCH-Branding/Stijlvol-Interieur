@@ -31,6 +31,7 @@
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "node-sass": "^9.0.0",
-    "sass-loader": "^13.3.2"
+    "sass-loader": "^13.3.2",
+    "sitemap-webpack-plugin": "^1.1.1"
   }
 }
