@@ -5,28 +5,6 @@
         <img src="../assets/logo/Logo-kleur.png" alt="Stijlvol Interieur Logo" class="navbar-brand nav-logo">  
       </router-link>
 
-    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <font-awesome-icon icon="fa-regular fa-compass" size="xl"/>
-      <span class="navbar-toggler-icon"></span>
-    </button> -->
-    
-    <!-- <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <router-link to="/" class="nav-link"> Home </router-link>
-        </li>
-        <li class="nav-item">
-          <router-link :to="{ name: 'Over'}" class="nav-link"> Over </router-link>
-        </li>
-        <li class="nav-item">
-          <router-link :to="{ name: 'Projecten'}" class="nav-link"> Projecten </router-link>
-        </li>        
-        <li class="nav-item">
-          <router-link :to="{ name: 'Contact'}" class="nav-link"> Contact </router-link>
-        </li>
-      </ul>
-    </div> -->
-
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <font-awesome-icon icon="fa-regular fa-compass" size="xl"/>
       <!-- <span class="navbar-toggler-icon"></span> -->

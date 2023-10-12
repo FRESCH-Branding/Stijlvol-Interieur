@@ -6,6 +6,7 @@ node_modules
 # local env files
 .env.local
 .env.*.local
+.env
 
 # Log files
 npm-debug.log*
@@ -24,3 +25,4 @@ pnpm-debug.log*
 
 #form-to-email file
 /src/components/Mail.vue
+/robots.txt

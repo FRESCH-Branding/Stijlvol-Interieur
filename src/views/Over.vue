@@ -8,14 +8,21 @@
         <div class="row justify-content-center">
             <div class="col-12 col-md-8">
                 <p>
-                    Stijlvol Interieur is een meubel en interieur bouw onderneming die zich gespecialiseerd heeft in het ontwerpen en produceren van interieur. 
-                    Hierbij gebruikt Stijlvol Interieur alle soorten hout, al dan niet in combinatie met staal, en enkel duurzame producten. Met het oog op detail en kwaliteit, 
-                    een flinke dosis vakkennis en het vakmanschap geeft Stijlvol Interieur vorm aan alle dromen en wensen van de klant.
+                    Welkom bij Stijlvol Interieur, waar vakmanschap, duurzaamheid en een persoonlijke aanpak samenkomen om uw interieurdromen werkelijkheid te maken. Mijn naam is Daan van den Bosch, de trotse eigenaar van Stijlvol Interieur.
                 </p>
                 <p>
-                    Met een persoonlijke aanpak en een op maat gemaakt ontwerp verzorgt Stijlvol Interieur het gehele proces, van ontwerp, productie tot aan de installatie. 
-                    Pas wanneer de wensen van de klant tot in de detail zijn afgewerkt en de wensen zijn voldaan is de klus klaar.
+                    Bij Stijlvol Interieur leggen wij de nadruk op vakmanschap en maatwerk. Wij werken met verschillende soorten hout, al dan niet in combinatie met staal, en enkel duurzame materialen. Met het oog op detail en kwaliteit, een flinke dosis vakkennis en het vakmanschap geeft Stijlvol Interieur vorm aan uw droominterieur. Mijn specialisatie is het ontwerpen en produceren van op maat gemaakte tafels, kasten, banken en nog veel meer. 
                 </p>
+                <p>
+                    De service van Stijlvol Interieur bevat het volledige traject, van het allereerste intakegesprek naar interieurontwerp tot de uiteindelijke installatie. Pas wanneer u tevreden bent en al uw wensen tot in de kleinste details zijn vervuld, ben ik dat ook! 
+                    Uw interieur is onze passie, en we nodigen u van harte uit om contact met ons op te nemen via onze contactpagina. 
+                </p>
+                <RouterBtn class="m-auto">
+                            <router-link :to="{ name: 'Contact'}">
+                                Laten we samen uw droominterieur realiseren!  
+                                <font-awesome-icon class="FA-icon" icon="fa-solid fa-angle-right" />
+                            </router-link>
+                        </RouterBtn>
             </div>
         </div>
     </div>
@@ -27,12 +34,11 @@
                     <div class="col-12 col-md-6">
                         <h2>Missie & Visie</h2>
                         <p>
-                            Bij Stijlvol Interieur zijn we toegewijd aan het creëren van unieke, duurzame en stijlvolle interieurs die voldoen aan de specifieke wensen en behoeften van onze klanten. We maken gebruik van hoogwaardige materialen en ons vakmanschap om tijdloze stukken te creëren die een leven lang meegaan. Onze persoonlijke aanpak en aandacht voor detail zorgen voor een naadloze en plezierige ervaring voor onze klanten, van begin tot eind.
+                            Bij Stijlvol Interieur hebben we het doel om unieke, duurzame maar vooral Stijlvolle interieurs te creëren. Het is voor ons belangrijk dat we voldoen aan de wensen en behoefte van onze klanten. We maken gebruik van hoogwaardige materialen waardoor we altijd de beste kwaliteit kunnen leveren. Wat Stijlvol Interieur uniek maakt is zijn persoonlijke aanpak, aandacht voor detail en het zorgen voor een plezierige ervaring van onze klanten. 
                         </p>
                         
                         <p>
-                            Wij geloven dat een interieur niet alleen een ruimte is om in te wonen of werken, maar een reflectie van iemands persoonlijkheid en levensstijl. We streven ernaar om onze klanten te helpen bij het creëren van een unieke en comfortabele omgeving die zowel functioneel als esthetisch aantrekkelijk is. Onze visie is om onze klanten te blijven verrassen met onze creativiteit en expertise, terwijl we blijven innoveren en gebruik maken van duurzame materialen.
-                        </p>
+                            Interieur is natuurlijk voor iedereen anders. Iemands interieur is niet alleen een ruimte om in te leven of in te werken maar dit is een stukje van iemand zijn/haar persoonlijkheid. We streven ernaar om onze klanten te helpen bij het creëren van een unieke en comfortabel omgeving waar de wensen en behoefte altijd centraal zullen staan. De visie van Stijlvol Interieur is om klanten te blijven verassen met onze creativiteit en professionaliteit!                        </p>
                         <RouterBtn>
                             <router-link :to="{ name: 'Contact'}">
                                 Contact 
@@ -43,6 +49,9 @@
                     <div class="col-12 col-md-4 over-column align-self-end">
                         <img src="../assets/afbeeldingen/Daan-Stijlvol-Interieur.jpg" class="img-fluid over-portret" alt="">
                         <!-- <img src="../assets/logo/icon.svg" class="img-fluid over-icoon" alt=""> -->
+                        <p>
+                            - Daan van den Bosch
+                        </p>
                     </div>
                 </div>
             </div>
@@ -117,6 +126,13 @@ export default {
     padding: 20px 20px 0 0 ;
     background-image: url(../assets/logo/icon.svg);
     background-repeat: no-repeat;
+}
+
+.over-column {
+    p {
+        font-family: var(--PlayfairB);
+        font-size: .75rem;
+    }
 }
 
 .CtA-container {
