@@ -5,6 +5,9 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 
+/* import analytics */
+import VueGtag from "vue-gtag";
+
 /* import the fontawesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";
 
@@ -31,5 +34,6 @@ library.add(faAnglesDown);
 
 createApp(App)
   .use(router)
+  .use(VueGtag, {config: { id: "G-FL9K17K9HN" }})
   .component("font-awesome-icon", FontAwesomeIcon)
   .mount("#app");

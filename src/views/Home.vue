@@ -76,7 +76,10 @@
       <div class="col-10 col-md-5 over-col">
         <h2>Stijlvol Interieur</h2>
         <p>
-          Stijlvol Interieur is een meubel en interieur bouw onderneming die zich gespecialiseerd heeft in het ontwerpen en produceren van interieur. Hierbij gebruikt Stijlvol Interieur alle soorten hout, al dan niet in combinatie met staal, en enkel duurzame producten. Met het oog op detail en kwaliteit, een flinke dosis vakkennis en het vakmanschap geeft Stijlvol Interieur vorm aan alle dromen en wensen van de klant.
+          Bij Stijlvol Interieur leggen wij de nadruk op vakmanschap en maatwerk. 
+          Wij werken met verschillende soorten hout, al dan niet in combinatie met staal en enkel met duurzame materialen. 
+          Met het oog op detail en kwaliteit en een flinke dosis vakkennis geeft Stijlvol Interieur vorm aan al uw dromen en wensen.
+          Onze specialisatie is het ontwerpen en produceren van op maat gemaakte tafels, kasten, banken en nog veel meer.
         </p>
         <RouterBtn>
           <router-link :to="{ name: 'Over'}"> 
@@ -95,7 +98,7 @@
       <div class="col-10 col-md-8 Cta-header">
         <h2>Benieuwd naar de mogelijkheden?</h2>
         <p>
-          Wil je jouw droominterieur werkelijkheid laten worden? Neem vandaag nog contact op met Stijlvol Interieur en laat ons jouw wensen tot leven brengen.
+          Wilt u uw droominterieur werkelijkheid laten worden? Neem vandaag nog contact op met Stijlvol Interieur en laat ons uw wensen tot leven brengen.
         </p>
         <RouterBtn>
           <router-link :to="{ name: 'Contact'}" class="expertise-link">

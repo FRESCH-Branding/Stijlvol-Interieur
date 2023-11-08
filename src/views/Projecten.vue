@@ -12,7 +12,7 @@
             <div class="col-10 col-md-8">
                 <h2>Benieuwd naar de mogelijkheden?</h2>
                 <p>
-                Wil je jouw droominterieur werkelijkheid laten worden? Neem vandaag nog contact op met Stijlvol Interieur en laat ons jouw wensen tot leven brengen.
+                Wilt u uw droominterieur werkelijkheid laten worden? Neem vandaag nog contact op met Stijlvol Interieur en laat ons jouw wensen tot leven brengen.
                 </p>
                 <RouterBtn>
                 <router-link :to="{ name: 'Contact'}">

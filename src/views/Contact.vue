@@ -15,9 +15,9 @@
                                 <p>
                                     <span class="lead">
                                         <h2 class="m-3">Vragen over het interieur van je dromen?</h2>
-                                            Jouw droominterieur is binnen handbereik, dus aarzel niet!
+                                            Uw droominterieur is binnen handbereik, dus aarzel niet!
                                             <br>
-                                            Neem contact op en zie hoe wij jouw dromen tot leven wekken.
+                                            Neem contact op en zie hoe wij uw dromen tot leven wekken.
                                     </span>
                                 </p>
                             </figure>
